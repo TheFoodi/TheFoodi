@@ -158,14 +158,19 @@ input{
 }
 
 .Category .List-items .card-list{
-    display: grid;
+    display: flex;
+    margin-right: 0.3px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 100px;
     grid-template-columns: repeat(4, 1fr);
 }
 
 .Category .card-list .card{
-    width: 210px;
+    width: 510px;
     display: block;
     padding: 10px;
+    margin: 10px;
     border-radius: 10px;
     position: relative;
     background: #ffffff;
@@ -175,8 +180,8 @@ input{
 .Category .card-list .card img{
     width: 98px;
     height: auto;
-    bottom: 239px;
-    left: 50px;
+    bottom: 385px;
+    left: 10px;
     object-fit: cover;
     object-position: center;
     background-repeat: no-repeat;
